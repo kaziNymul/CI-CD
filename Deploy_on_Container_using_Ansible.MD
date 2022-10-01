@@ -9,9 +9,7 @@
 1. `Dockerfile` under *`/opt/docker`* on Ansible server **[Get Help Here]()**
    ```sh 
    # Pull tomcat latest image from dockerhub 
-   From tomcat
-   # Maintainer
-   MAINTAINER "AR Shankar" 
+   From tomcat 
 
    # copy war file on to container 
    COPY ./webapp.war /usr/local/tomcat/webapps
